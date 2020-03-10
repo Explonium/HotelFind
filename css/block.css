@@ -1,0 +1,16 @@
+.block_hover{
+    margin: 0px;
+    padding: 0.2em;
+    background-color: #505050;
+    transition: background-color 0.5s;
+}
+
+.block_hover:hover{
+    background-color: #555555;
+}
+
+.block_light{
+    margin: 0px;
+    padding: 0px;
+    background-color: #919191;
+}

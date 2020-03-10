@@ -1,0 +1,13 @@
+.header {
+    margin: 0px;
+    padding: 0.2em;
+    background-color: #464646;
+    border-bottom-style: solid;
+    border-bottom-color: #919191;
+    border-bottom-width: 1px;
+    transition: background-color 0.5s;
+}
+
+.header:hover {
+    background-color: #4b4b4b;
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: rounded_elegance;
+    src: url("../font/Rounded_Elegance.ttf");
+}
+
+h1{
+    font-family: rounded_elegance;
+    font-size: 2em;
+    color: #ffba00;
+    text-align: center;
+    alignment: top;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    font-family: rounded_elegance;
+    font-size: 1em;
+    color: #919191;
+    text-align: center;
+    alignment: top;
+    padding: 0px;
+    margin: 0px;
+}
