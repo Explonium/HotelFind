@@ -1,6 +1,6 @@
-.header {
-    margin: 0px;
+#header {
     padding: 0.2em;
+    width: 100%;
     background-color: #464646;
     border-bottom-style: solid;
     border-bottom-color: #919191;
@@ -8,6 +8,16 @@
     transition: background-color 0.5s;
 }
 
-.header:hover {
+#header:hover {
     background-color: #4b4b4b;
+}
+
+.input{
+    background-color: #252525;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 0.2em;
+    font-size: 1em;
+    color: #919191;
+    outline-color: #ffba00;
 }

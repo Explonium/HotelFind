@@ -1,7 +1,13 @@
+.row {
+    width: 100%;
+}
+
 .block_hover{
-    margin: 0px;
+    user-select: none;
     padding: 0.2em;
     background-color: #505050;
+    border-radius: 7px;
+    border: 1px solid #666666;
     transition: background-color 0.5s;
 }
 
@@ -10,7 +16,15 @@
 }
 
 .block_light{
-    margin: 0px;
-    padding: 0px;
+    position: relative;
     background-color: #919191;
+}
+
+.main_block{
+    margin: 20px;
+    padding: 0.5em;
+    border-radius: 7px;
+    border: 1px solid #919191;
+    width: calc(100% - 40px);
+    background-color: #464646;
 }

@@ -1,0 +1,17 @@
+#footer{
+    float: left;
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 0.2em;
+    width: 100%;
+    background-color: #464646;
+    border-top-style: solid;
+    border-top-color: #919191;
+    border-top-width: 1px;
+    transition: background-color 0.5s;
+}
+
+#footer:hover {
+    background-color: #4b4b4b;
+}

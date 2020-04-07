@@ -3,8 +3,15 @@
     src: url("../font/Rounded_Elegance.ttf");
 }
 
+p{
+    color: #999999;
+}
+
+.half-line{
+    margin-top: 1em
+}
+
 h1{
-    font-family: rounded_elegance;
     font-size: 2em;
     color: #ffba00;
     text-align: center;
@@ -14,7 +21,6 @@ h1{
 }
 
 h2{
-    font-family: rounded_elegance;
     font-size: 1em;
     color: #919191;
     text-align: center;
